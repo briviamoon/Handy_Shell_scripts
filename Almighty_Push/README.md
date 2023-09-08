@@ -1,35 +1,35 @@
 push(1)                            push                            push(1)
 
 PUSH
-PUSH - A script for staging and committing changes in a Git repository
-				SYNOPSIS
-				####push####
 
-		      		DESCRIPTION
+PUSH - A script for staging and committing changes in a Git repository
+            ###SYNOPSIS###
+
+#Installation 
+1. sudo ./push_install
+#running.
+2. command_line$ push
+3. enter commit message. <return>
+
+             ###DESCRIPTION###
 The push script checks if you are inside a Git repository and if there are any unstaged changes.
 If changes exist, it stages them, prompts for a commit message,
 and then commits and pushes the changesto the current branch.
 
 				###OPTIONS###
-
-                               None-currently
-
-				 EXAMPLES
-To use your_script, navigate to your Git repository and run it:
-
-$ push
+None-currently.
 
 				###AUTHOR###
 
-				BRIVIA ALLAN
+                BRIVIA ALLAN
 
-			    ###REPORTING BUGS###
+            ###REPORTING BUGS###
 		Please report bugs to: briviamoon@gmail.com
 
-				SEE ALSO
+				##SEE ALSO##
 		https://github.com/briviamoon/Almighty_Push
 
-				COPYRIGHT
+				##COPYRIGHT##
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
