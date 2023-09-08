@@ -1,0 +1,34 @@
+#!/bin/bash
+
+#check if this is a directory
+
+if git rev-parse --is-inside-work-tree &> /dev/null && [ -n "$(git status --porcelain)" ]; then
+        current_branch=$(git symbolic-ref --short HEAD) #checks for current branch name
+
+        echo "staging Changes ..."
+        #git stages changes
+        git add .
+
+        read -p "Commit Here: " commit_message #asks for commit message
+
+        if [ -z "$commit_message" ]; then #checks message is not empty
+                echo "You know! Commit message can't be empty."
+                exit 1
+        fi
+
+        #commiting and pushing
+        echo "pushing to '$current_branch'"
+
+        git commit -m "$commit_message"   #appends commit message
+        git push origin "$current_branch" #appends current ranchname found true
+
+        if [ -z "$(git status --porcelain)" ]; then
+                echo "There are no changes to stage."
+                exit 1
+        fi
+
+elif ! git rev-parse --is-inside-work-tree &> /dev/null; then
+        echo "This ain't no git repo!"
+        exit 1
+fi
+
