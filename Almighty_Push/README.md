@@ -31,10 +31,9 @@ chmod +x push
 4. Run the installation script:
 ```bash
 ./push_install.sh
-
+```bash
 The installation script will prompt you to confirm the installation. If you agree, it will copy the script to a suitable location and set up the manual page (man page) for you.
 
-## Usage
 After installation, you can use ALMIGHTY PUSH as follows:
 push
 The script will automate the process of staging, committing, and pushing changes to your Git repository.
