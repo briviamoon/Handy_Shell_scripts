@@ -20,29 +20,26 @@ Run the installation script:
 ./push_install.sh
 The installation script will prompt you to confirm the installation. If you agree, it will copy the script to a suitable location and set up the manual page (man page) for you.
 
-Usage
+## Usage
 After installation, you can use ALMIGHTY PUSH as follows:
 push
 The script will automate the process of staging, committing, and pushing changes to your Git repository.
 
-Manual Page
+## Manual Page
 You can access the manual page for ALMIGHTY PUSH by running:
 man push
 The manual page provides detailed information about the script and its usage.
 
-Uninstallation
+## Uninstallation
 To uninstall ALMIGHTY PUSH, simply delete the script and the manual page if you no longer need them.
 
-Contributing
+## Contributing
 Contributions to ALMIGHTY PUSH are welcome! Feel free to open issues, submit pull requests, or improve the script in any way you see fit.
 
-License
+## License
 ALMIGHTY PUSH is open-source software licensed under the MIT License. You are free to use, modify, and distribute this script.
 
-Author
+## Author
 Brivia Allan
 GitHub:briviamoon
-Happy Coding! Enjoy the simplicity of ALMIGHTY PUSH.
-
-In this README, I've provided instructions for installation, usage, accessing the manual page, and uninstallation. I've also included information about contributing to the script, its license, and the author's details. Please replace any placeholders with the actual information, such as the GitHub repository link and the author's GitHub profile.
-
+**Happy Coding! Enjoy the simplicity of ALMIGHTY PUSH.**
