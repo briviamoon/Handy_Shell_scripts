@@ -1,58 +1,52 @@
 # ALMIGHTY PUSH
 
-![GitHub](https://img.shields.io/github/license/briviamoon/Handy_Shell_scripts/Almighty_push)
+![GitHub](https://img.shields.io/github/license/briviamoon/almighty-push)
 
 Are you tired of typing long git push commands every time? The ALMIGHTY PUSH script is here to simplify your life by automating the process of pushing changes to a Git repository.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Installation
 
 To install ALMIGHTY PUSH, follow these steps:
 
-1. Clone the repository or download the script.
+Clone the repository or download the script.
 
 ```bash
-git clone https://github.com/briviaallan/almighty-push.git
+git clone https://github.com/briviamoon/almighty-push.git
 
-2. Navigate to the script directory:
-```bash
+Navigate to the script directory:
 cd almighty-push
 
-3. Make the script executable:
-```bash
+Make the script executable:
 chmod +x push
-4. Run the installation script:
-```bash
-./push_install.sh
-```bash
-The installation script will prompt you to confirm the installation. If you agree, it will copy the script to a suitable location and set up the manual page (man page) for you.
 
+Run the installation script:
+bash
+./push_install.sh
+
+The installation cript will prompt you to confirm the installation. If you agree, it will copy the script to a suitable location and set up the manual page (man page) for you.
+
+Usage
 After installation, you can use ALMIGHTY PUSH as follows:
 push
+
 The script will automate the process of staging, committing, and pushing changes to your Git repository.
 
-## Manual Page
+Manual Page
 You can access the manual page for ALMIGHTY PUSH by running:
 man push
+
 The manual page provides detailed information about the script and its usage.
 
-## Uninstallation
+Uninstallation
 To uninstall ALMIGHTY PUSH, simply delete the script and the manual page if you no longer need them.
 
-## Contributing
+Contributing
 Contributions to ALMIGHTY PUSH are welcome! Feel free to open issues, submit pull requests, or improve the script in any way you see fit.
 
-## License
+License
 ALMIGHTY PUSH is open-source software licensed under the MIT License. You are free to use, modify, and distribute this script.
 
-## Author
+Author
 Brivia Allan
-GitHub:briviamoon
-**Happy Coding! Enjoy the simplicity of ALMIGHTY PUSH.**
+GitHub: briviamoon
+Happy Coding! Enjoy the simplicity of ALMIGHTY PUSH.
