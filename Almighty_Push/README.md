@@ -4,6 +4,14 @@
 
 Are you tired of typing long git push commands every time? The ALMIGHTY PUSH script is here to simplify your life by automating the process of pushing changes to a Git repository.
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
 ## Installation
 
 To install ALMIGHTY PUSH, follow these steps:
@@ -12,13 +20,18 @@ To install ALMIGHTY PUSH, follow these steps:
 
 ```bash
 git clone https://github.com/briviaallan/almighty-push.git
-'''bash
-Navigate to the script directory:
+
+2. Navigate to the script directory:
+```bash
 cd almighty-push
-Make the script executable:
+
+3. Make the script executable:
+```bash
 chmod +x push
-Run the installation script:
+4. Run the installation script:
+```bash
 ./push_install.sh
+
 The installation script will prompt you to confirm the installation. If you agree, it will copy the script to a suitable location and set up the manual page (man page) for you.
 
 ## Usage
