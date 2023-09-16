@@ -1,4 +1,4 @@
-# ALMIGHTY PUSH
+
 
 ![GitHub](https://img.shields.io/github/license/briviamoon/almighty-push)
 
