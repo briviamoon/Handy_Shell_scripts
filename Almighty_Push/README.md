@@ -1,6 +1,6 @@
 # ALMIGHTY PUSH
 
-![GitHub](https://img.shields.io/github/license/briviaallan/almighty-push)
+![GitHub](https://img.shields.io/github/license/briviamoon/Handy_Shell_scripts/Almighty_push)
 
 Are you tired of typing long git push commands every time? The ALMIGHTY PUSH script is here to simplify your life by automating the process of pushing changes to a Git repository.
 
@@ -40,8 +40,8 @@ License
 ALMIGHTY PUSH is open-source software licensed under the MIT License. You are free to use, modify, and distribute this script.
 
 Author
-Brivia Moon
-GitHub: Brivia Moon
+Brivia Allan
+GitHub:briviamoon
 Happy Coding! Enjoy the simplicity of ALMIGHTY PUSH.
 
 In this README, I've provided instructions for installation, usage, accessing the manual page, and uninstallation. I've also included information about contributing to the script, its license, and the author's details. Please replace any placeholders with the actual information, such as the GitHub repository link and the author's GitHub profile.
