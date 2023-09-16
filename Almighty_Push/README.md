@@ -12,6 +12,7 @@ To install ALMIGHTY PUSH, follow these steps:
 
 ```bash
 git clone https://github.com/briviaallan/almighty-push.git
+'''bash
 Navigate to the script directory:
 cd almighty-push
 Make the script executable:
