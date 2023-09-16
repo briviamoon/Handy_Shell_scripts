@@ -4,49 +4,49 @@
 
 Are you tired of typing long git push commands every time? The ALMIGHTY PUSH script is here to simplify your life by automating the process of pushing changes to a Git repository.
 
-# Installation
 
 To install ALMIGHTY PUSH, follow these steps:
 
-Clone the repository or download the script.
+1. Clone the repository or download the script.
 
 ```bash
-git clone https://github.com/briviamoon/almighty-push.git
+2. git clone https://github.com/briviamoon/almighty-push.git
 
-Navigate to the script directory:
+3. Navigate to the script directory:
 cd almighty-push
 
-Make the script executable:
+4. Make the script executable:
 chmod +x push
 
-Run the installation script:
-bash
+5. Run the installation script:
 ./push_install.sh
 
-The installation cript will prompt you to confirm the installation. If you agree, it will copy the script to a suitable location and set up the manual page (man page) for you.
+6. The installation cript will prompt you to confirm the installation. If you agree, it will copy the script to a suitable location and set up the manual page (man page) for you.
 
-Usage
+# usage
 After installation, you can use ALMIGHTY PUSH as follows:
+```bash
 push
 
 The script will automate the process of staging, committing, and pushing changes to your Git repository.
 
-Manual Page
+# Manual Page
 You can access the manual page for ALMIGHTY PUSH by running:
+```bash
 man push
 
 The manual page provides detailed information about the script and its usage.
 
-Uninstallation
+# Uninstallation
 To uninstall ALMIGHTY PUSH, simply delete the script and the manual page if you no longer need them.
 
-Contributing
+# Contributing
 Contributions to ALMIGHTY PUSH are welcome! Feel free to open issues, submit pull requests, or improve the script in any way you see fit.
 
-License
+# License
 ALMIGHTY PUSH is open-source software licensed under the MIT License. You are free to use, modify, and distribute this script.
 
-Author
+# Author
 Brivia Allan
 GitHub: briviamoon
-Happy Coding! Enjoy the simplicity of ALMIGHTY PUSH.
+## Happy Coding! Enjoy the simplicity of ALMIGHTY PUSH.
