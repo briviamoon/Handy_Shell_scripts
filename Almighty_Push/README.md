@@ -4,7 +4,7 @@
 
 Are you tired of typing long git push commands every time? The ALMIGHTY PUSH script is here to simplify your life by automating the process of pushing changes to a Git repository.
 
-## Installation
+# Installation
 
 To install ALMIGHTY PUSH, follow these steps:
 
