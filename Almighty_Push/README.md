@@ -4,10 +4,17 @@ Are you tired of typing long git push commands every time? The ALMIGHTY PUSH scr
 
 ## Installation 
 
-To install ALMIGHTY PUSH, follow these steps:
-1. Clone the reository or download the script: git clone https://github.com/briviamoon/Handy_Shell_scripts
-2. Navigate to Script directiry: cd Handy_Shell_scripts/Almighty_Push
+**To install ALMIGHTY PUSH, follow these steps:**
+
+1. Clone the reository or download the script: ```git clone https://github.com/briviamoon/Handy_Shell_scripts```
+
+2. Navigate to Script directiry: ```cd Handy_Shell_scripts/Almighty_Push```
 ## usage
-## contributing
-## License
+
+1. Run ```push```.
+
+2. Enter you commit message.
+
 ## Author
+
+[Brivia Allan](https://github.com/briviamoon)
